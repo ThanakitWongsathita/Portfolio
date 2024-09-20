@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_crew"
+            android:icon="@drawable/icon_crew_menu"
+            android:title="บุคลากร" />
+
+        <item
+            android:id="@+id/menu_course"
+            android:icon="@drawable/icon_course_menu"
+            android:title="หลักสูตร" />
+
+        <item
+            android:id="@+id/menu_lab"
+            android:icon="@drawable/icon_lab_menu"
+            android:title="ห้องปฏิบัติการ" />
+
+        <item
+            android:id="@+id/menu_classroom"
+            android:icon="@drawable/icon_classroom_menu"
+            android:title="ห้องเรียน" />
+
+        <item
+            android:id="@+id/menu_activity"
+            android:icon="@drawable/icon_activity_menu"
+            android:title="กิจกรรม" />
+
+        <item
+            android:id="@+id/menu_location"
+            android:icon="@drawable/icon_location_menu"
+            android:title="สถานที่" />
+    </group>
+
+
+</menu>

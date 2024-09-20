@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseFragment">
+
+
+    <View
+        android:id="@+id/bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:alpha="1.0"
+        android:background="#333436" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="3dp"
+        android:text="หลักสูตร"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+    <View
+        android:layout_width="318dp"
+        android:layout_height="504dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded3_2" />
+
+    <View
+        android:layout_width="308dp"
+        android:layout_height="494dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded3_1" />
+
+    <View
+        android:layout_width="303dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded1_1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="80dp"
+        android:text="หลักสูตรปริญญาตรี 4 ปี (IT)"
+        android:textColor="#152B4E"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="115dp"
+        android:text="หลักสูตร"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="135dp"
+        android:text="หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาเทคโนโลยีสารสนเทศ(หลักสูตรปรับปรุง พ.ศ. 2562)"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="175dp"
+        android:text="เกณฑ์การสำเร็จการศึกษา"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="195dp"
+        android:text="127 หน่วยกิต"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="215dp"
+        android:text="คุณวุฒิผู้เรียน"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="235dp"
+        android:text="จบมัธยมศึกษาชั้นปีที่ 6(ม.6) หรือประกาศนียบัตรวิชาชีพ(ปวช.)"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="255dp"
+        android:text="ค่าเทอม"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="275dp"
+        android:text="19,000 บาท (ประมาณ)"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp">
+
+    </TextView>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="300dp"
+        android:text="หลักสูตรปริญญาตรี (ต่อเนื่อง) (IT)"
+        android:textColor="#152B4E"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="335dp"
+        android:text="หลักสูตร"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="355dp"
+        android:text="อุตสาหกรรมศาสตรบัณฑิต สาขาวิชาเทคโนโลยีสารสนเทศ"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="375dp"
+        android:text="เกณฑ์การสำเร็จการศึกษา"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="395dp"
+        android:text="81 หน่วยกิต	"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="415dp"
+        android:text="คุณวุฒิผู้เรียน"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="435dp"
+        android:text="	จบประกาศนียบัตรวิชาชีพชั้นสูง(ปวส.)"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="455dp"
+        android:text="ค่าเทอม"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="475dp"
+        android:text="19,000 บาท (ประมาณ)"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp">
+
+    </TextView>
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/link_course1"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="500dp"
+        android:text="- 1"
+        android:textColor="#152B4E"
+        android:textSize="8sp">
+
+    </TextView>
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/link_course2"
+        android:layout_width="275dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="530dp"
+        android:text="- 1"
+        android:textColor="#152B4E"
+        android:textSize="8sp">
+
+    </TextView>
+
+
+
+
+</FrameLayout>

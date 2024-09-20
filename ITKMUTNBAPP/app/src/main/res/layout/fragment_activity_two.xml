@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentActivityOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="320dp"
+                android:src="@drawable/activity4" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="320dp"
+                android:src="@drawable/activity3" />
+
+            <!-- เพิ่ม ImageView อื่นๆ ตามต้องการ -->
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="330dp"
+        android:textSize="25sp"
+        android:text="การจัดอบรมในมหาลัย"
+        android:textColor="#152B4E"/>
+
+    <TextView
+        android:id="@+id/textActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="370dp"
+        android:textSize="12sp"
+        android:text="IT3K"
+        android:textColor="#FFFF"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/circleAc3_1"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="520dp"
+
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            app:srcCompat="@color/white"
+            android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/circleAc3_2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="165dp"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@color/white"
+            android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="50dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="185dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@color/black"
+            android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>
+

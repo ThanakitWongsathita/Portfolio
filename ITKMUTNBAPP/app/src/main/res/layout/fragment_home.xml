@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-50dp"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="220dp"
+            android:text="ระบบสารสนเทศสำหรับนักศึกษา"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_locate" />
+
+
+        <TextView
+            android:id="@+id/btnLink1"
+            android:layout_width="141dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="275dp"
+            android:text="ระบบสารสนเทศเพื่องานทะเบียนนักศึกษา"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_locate" />
+
+        <TextView
+            android:id="@+id/btnLink2"
+            android:layout_width="141dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="285dp"
+            android:text="ตารางสอน/ตารางสอบ"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_locate" />
+
+        <TextView
+            android:id="@+id/btnLink3"
+            android:layout_width="141dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="338dp"
+            android:text="เอกสารดาวน์โหลดนักศึกษา"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_locate" />
+
+        <TextView
+            android:id="@+id/btnLink4"
+            android:layout_width="141dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="345dp"
+            android:text="ปฏิทินการศึกษา"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_locate" />
+
+        <TextView
+            android:id="@+id/btnLink5"
+            android:layout_width="141dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="395dp"
+            android:text="ระบบตรวจสอบรายชื่อผู้สำเร็จการศึกษา"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="13sp"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_locate" />
+
+        <TextView
+            android:id="@+id/btnLink6"
+            android:layout_width="141dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="395dp"
+            android:text="ระบบแจ้งความจำนงขอจบการศึกษา"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_locate" />
+
+        <TextView
+            android:id="@+id/btnLink7"
+            android:layout_width="141dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="458dp"
+            android:text="ระบบขอเอกสารทางการศึกษา "
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="13sp"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_locate" />
+
+        <TextView
+            android:id="@+id/btnLink8"
+            android:layout_width="141dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="465dp"
+            android:text="พิมพ์ใบเสร็จ"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_locate" />
+
+        <TextView
+            android:id="@+id/btnLink9"
+            android:layout_width="141dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="517dp"
+            android:text="ระบบ e-Studentloanสำหรับผู้กู้ กยศ. และ กรอ."
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="12sp"
+            android:textStyle="bold">
+        </TextView>
+
+
+        <View
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_locate" />
+
+        <TextView
+            android:id="@+id/btnLink10"
+            android:layout_width="141dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="525dp"
+            android:text="บริการซอฟต์แวร์ลิขสิทธิ์"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="13sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+
+</FrameLayout>

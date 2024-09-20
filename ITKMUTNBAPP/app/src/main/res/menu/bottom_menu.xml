@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:title="หน้าแรก"
+        android:icon="@drawable/icon_home_menu" />
+
+    <item
+        android:id="@+id/menu_crew"
+        android:title="บุคลากร"
+        android:icon="@drawable/icon_crew_menu" />
+
+    <item
+        android:id="@+id/menu_course"
+        android:title="หลักสูตร"
+        android:icon="@drawable/icon_course_menu" />
+
+    <item
+        android:id="@+id/menu_lab"
+        android:title="ห้องปฎิบัติการ"
+        android:icon="@drawable/icon_lab_menu" />
+
+    <item
+        android:id="@+id/menu_classroom"
+        android:title="ห้องเรียน"
+        android:icon="@drawable/icon_classroom_menu" />
+
+
+</menu>
